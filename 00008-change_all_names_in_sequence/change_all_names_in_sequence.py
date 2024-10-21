@@ -19,7 +19,8 @@ def change_all_names_in_sequence(path, name_pattern, type_of_files=None):
     """
     all_files = get_all_files(path, type_of_files)
     for i, file in enumerate(all_files):
-        os.rename(os.path.join(path, file), os.path.join(path, name_pattern.replace('$', f'{i+1:02}')+type_of_files))
+        os.rename(os.path.join(path, file), os.path.join(
+            path, name_pattern.replace('$', f'{i+1:02}')+type_of_files))
 
 
 change_all_names_in_sequence(os.path.dirname(

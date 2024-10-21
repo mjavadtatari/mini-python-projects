@@ -2,9 +2,21 @@ import os
 import re
 import tkinter as tk
 from tkinter import filedialog, messagebox
+from ctypes import windll
+
+# Global variables to store the selected source and destination paths
+src_path = ""
+dest_path = ""
 
 
-def create_md_files(src_path, dest_path):
+def create_md_files():
+    global src_path, dest_path
+
+    if not src_path or not dest_path:
+        messagebox.showwarning(
+            "Warning", "Please select both source and destination folders.")
+        return
+
     # Get all folder names in the source path
     folders = [f for f in os.listdir(
         src_path) if os.path.isdir(os.path.join(src_path, f))]
@@ -18,44 +30,89 @@ def create_md_files(src_path, dest_path):
 
     # Create a .md file for each folder in the destination path
     for folder in folders:
+        folder_path = os.path.join(src_path, folder)
+
+        # Modify the folder name for the markdown file name
         modified_folder_name = re.sub(r'^[\d\s\-_]+', '', folder)
+        modified_folder_name = modified_folder_name.replace(
+            "-", "").replace("&", "").replace(",", "").replace("\'", "").replace("+", "")
+        modified_folder_name = ' '.join(modified_folder_name.split())
         modified_folder_name = modified_folder_name.lower().replace(" ", "-")
 
         md_file_name = f'{counter:03}-{modified_folder_name}.md'
         md_file_path = os.path.join(dest_path, md_file_name)
 
+        # Open and write the folder name as a header
         with open(md_file_path, 'w') as md_file:
-            md_file.write(f"# {folder}\n")  # Example content for each file
+            md_file.write(f"# {folder}\n")  # Main folder name as a header
+
+            # Now look for .mp4 files inside the folder
+            for file in os.listdir(folder_path):
+                if file.endswith('.mp4'):
+                    # Remove the .mp4 extension and write the episode title in markdown format
+                    episode_name = os.path.splitext(file)[0]
+                    md_file.write(f"\n## Episode {episode_name}\n")
 
         counter += 1
 
     messagebox.showinfo("Success", f"Created {len(folders)} markdown files.")
 
 
-def select_folders():
-    # Select the source folder
+def select_src_folder():
+    global src_path
     src_path = filedialog.askdirectory(title="Select Source Folder")
-    if not src_path:
-        return  # Cancelled by user
+    if src_path:
+        src_label.config(text=f"Source: {src_path}")
 
-    # Select the destination folder
+
+def select_dest_folder():
+    global dest_path
     dest_path = filedialog.askdirectory(title="Select Destination Folder")
-    if not dest_path:
-        return  # Cancelled by user
-
-    create_md_files(src_path, dest_path)
+    if dest_path:
+        dest_label.config(text=f"Destination: {dest_path}")
 
 
 # Tkinter window setup
+windll.shcore.SetProcessDpiAwareness(1)
+
 root = tk.Tk()
 root.title("Markdown File Creator")
-root.geometry("300x150")
+root.tk.call('tk', 'scaling', 1.72)
+root.geometry("1024x400")
 
 label = tk.Label(root, text="Create .md files for each folder",
-                 font=("Arial", 12))
-label.pack(pady=20)
+                 font=("Arial", 14, "bold"))
+label.pack(pady=10)
 
-select_button = tk.Button(root, text="Select Folders", command=select_folders)
-select_button.pack(pady=10)
+# Styles for buttons
+button_style = {"font": ("Arial", 12, "bold"), "width": 25,
+                "height": 1, "bg": "#4CAF50", "fg": "white"}
+
+# Source folder selection
+src_button = tk.Button(root, text="Select Source Folder",
+                       command=select_src_folder, **button_style)
+src_button.pack(pady=10)
+
+# Label for source folder path
+src_label = tk.Label(root, text="Source: Not selected", font=("Arial", 10))
+src_label.pack(pady=5)
+
+# Destination folder selection
+dest_button = tk.Button(root, text="Select Destination Folder",
+                        command=select_dest_folder, **button_style)
+dest_button.pack(pady=10)
+
+# Label for destination folder path
+dest_label = tk.Label(
+    root, text="Destination: Not selected", font=("Arial", 10))
+dest_label.pack(pady=5)
+
+# "Go" button to create .md files
+go_button = tk.Button(root, text="Go", command=create_md_files, **button_style)
+go_button.pack(pady=20)
+
+signature = tk.Label(root, text="@mjavadtatari",
+                     font=("Arial", 10))
+signature.pack(pady=10)
 
 root.mainloop()
