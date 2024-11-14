@@ -1,3 +1,4 @@
+*.log
 /count-pdf-pages
 /00001-automate_change_file_name_mini_project
 /00002-takhiri_largefile_compressor
