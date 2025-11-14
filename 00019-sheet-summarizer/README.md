@@ -49,7 +49,3 @@ pyinstaller --noconsole --onefile --icon=icon.ico sheet-summarizer.py
 ```
 
 Your `.exe` will be created inside the **dist/** folder.
-
----
-
-If you want, I can also generate a polished icon and add screenshots to the README.
