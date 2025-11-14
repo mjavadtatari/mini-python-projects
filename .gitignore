@@ -4,3 +4,8 @@
 /00002-takhiri_largefile_compressor
 /00004-iptables_whitelist_mini_project
 /00013-xbox-link-extractor
+*.exe
+*/build
+*/dist
+*/_pycache
+*.spec

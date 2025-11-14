@@ -1,3 +1,4 @@
+from tkinter import messagebox
 import os
 import re
 import tkinter as tk
@@ -7,6 +8,7 @@ from ctypes import windll
 # Global variables to store the selected source and destination paths
 src_path = ""
 dest_path = ""
+VIDEO_EXTENSIONS = {'.mp4', '.mkv', '.avi', '.mov', '.flv'}
 
 
 def create_md_files():
@@ -18,12 +20,45 @@ def create_md_files():
         return
 
     # Get all folder names in the source path
-    folders = [f for f in os.listdir(
-        src_path) if os.path.isdir(os.path.join(src_path, f))]
+    folders = [f for f in os.listdir(src_path)
+               if os.path.isdir(os.path.join(src_path, f))]
 
     # Ensure the destination path exists, if not, create it
     if not os.path.exists(dest_path):
         os.makedirs(dest_path)
+
+    # If there are no subfolders, process video files in the root
+    if not folders:
+        videos = [f for f in os.listdir(src_path)
+                  if os.path.isfile(os.path.join(src_path, f)) and
+                  os.path.splitext(f)[1].lower() in VIDEO_EXTENSIONS]
+        videos.sort()
+
+        # Group videos into chunks of 5
+        chunk_size = 5
+        total = len(videos)
+        counter = 1
+
+        for start in range(0, total, chunk_size):
+            end = min(start + chunk_size, total)
+            md_prefix = f"{counter:03}"
+            first_ep = start + 1
+            last_ep = end
+            md_filename = f"{md_prefix}-episode-{first_ep:02}-to-{last_ep:02}.md"
+            md_filepath = os.path.join(dest_path, md_filename)
+
+            with open(md_filepath, 'w') as md_file:
+                for idx in range(start, end):
+                    episode_number = idx + 1
+                    episode_name, _ = os.path.splitext(videos[idx])
+                    md_file.write(
+                        f"## Episode {episode_number} : {episode_name}\n")
+
+            counter += 1
+
+        messagebox.showinfo(
+            "Success", f"Created {counter-1} markdown files for {total} videos.")
+        return
 
     # Initiate the counter
     counter = 1
@@ -33,9 +68,9 @@ def create_md_files():
         folder_path = os.path.join(src_path, folder)
 
         # Modify the folder name for the markdown file name
-        modified_folder_name = re.sub(r'^[\d\s\-_]+', '', folder)
+        modified_folder_name = re.sub(r'^[\d\s\.\-_]+', '', folder)
         modified_folder_name = modified_folder_name.replace(
-            "-", "").replace("&", "").replace(",", "").replace("\'", "").replace("+", "")
+            "-", "").replace("&", "").replace(",", "").replace("'", "").replace("+", "")
         modified_folder_name = ' '.join(modified_folder_name.split())
         modified_folder_name = modified_folder_name.lower().replace(" ", "-")
 
@@ -48,7 +83,7 @@ def create_md_files():
 
             # Now look for .mp4 files inside the folder
             for file in os.listdir(folder_path):
-                if file.endswith('.mp4'):
+                if file.lower().endswith('.mp4'):
                     # Remove the .mp4 extension and write the episode title in markdown format
                     episode_name = os.path.splitext(file)[0]
                     md_file.write(f"\n## Episode {episode_name}\n")
