@@ -1,9 +1,3 @@
-Here is the improved **README.md** with an added **Requirements** section including full installation commands.
-
----
-
-# 📄 **Updated README.md (UTF-8 Text Normalizer)**
-
 # UTF-8 Text Normalizer
 
 A simple PyQt5 desktop app that detects the encoding of any text and safely converts it to clean UTF-8.
@@ -68,12 +62,12 @@ python utf8-normalizer.py
 Use PyInstaller:
 
 ```
-pyinstaller --noconsole --onefile utf8-normalizer.py
+pyinstaller --noconsole --onefile utf8-text-normalizer.py
 ```
 
 The compiled EXE will appear in:
 
-dist/utf8-normalizer.exe
+dist/utf8-text-normalizer.exe
 
 ---
 

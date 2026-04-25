@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "Appu Music Downloader",
+    "version": "2.0",
+    "description": "Download high-quality audio from supported music sites",
+    "permissions": [
+        "storage",
+        "downloads",
+        "webRequest",
+        "notifications"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "sites-config.js",
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Appu Music Downloader"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}

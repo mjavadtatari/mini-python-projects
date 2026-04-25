@@ -9,3 +9,5 @@
 */dist
 */_pycache
 *.spec
+*.pem
+*/*.pem

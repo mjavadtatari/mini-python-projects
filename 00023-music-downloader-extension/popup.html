@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 520px;
+        max-height: 600px;
+        margin: 0;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      }
+      .container {
+        padding: 12px;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+        gap: 8px;
+      }
+      h3 {
+        margin: 0;
+        font-size: 16px;
+        flex: 1;
+      }
+      button {
+        background: #1a73e8;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        padding: 6px 12px;
+        cursor: pointer;
+        font-size: 12px;
+      }
+      button.secondary {
+        background: #5f6368;
+      }
+      .song-list,
+      .info-page {
+        max-height: 450px;
+        overflow-y: auto;
+      }
+      .song-item {
+        background: #f5f5f5;
+        margin: 12px 0;
+        padding: 10px;
+        border-radius: 8px;
+      }
+      .song-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 8px;
+      }
+      .song-thumb {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+      .song-title {
+        font-size: 14px;
+        font-weight: 600;
+        word-break: break-word;
+      }
+      .download-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 8px;
+        align-items: center;
+      }
+      .download-btn {
+        background: #0d652d;
+      }
+      .download-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+      }
+      .copy-btn {
+        background: #3b6e8b;
+        margin-left: 4px;
+      }
+      .empty {
+        text-align: center;
+        color: gray;
+        padding: 20px;
+      }
+      .note {
+        font-size: 11px;
+        color: gray;
+        text-align: center;
+        margin-top: 8px;
+      }
+      .back-btn {
+        background: #5f6368;
+        margin-bottom: 12px;
+      }
+      .info-content {
+        padding: 8px;
+        line-height: 1.5;
+      }
+      .site-list {
+        list-style: none;
+        padding-left: 0;
+      }
+      .site-list li {
+        background: #f0f0f0;
+        margin: 8px 0;
+        padding: 10px;
+        border-radius: 6px;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Appu Music Downloader</h3>
+        <button id="refreshBtn">Refresh</button>
+        <button id="aboutBtn" class="secondary">About</button>
+        <button id="sitesBtn" class="secondary">Supported Sites</button>
+      </div>
+
+      <!-- Main song list view -->
+      <div id="listView">
+        <div id="songList" class="song-list">
+          <div class="empty">Loading...</div>
+        </div>
+        <div class="note">
+          Songs are auto-captured when played on supported sites
+        </div>
+      </div>
+
+      <!-- About view (hidden initially) -->
+      <div id="aboutView" class="hidden">
+        <button id="backToListFromAbout" class="back-btn">Back to List</button>
+        <div class="info-content">
+          <h3>About Appu Music Downloader</h3>
+          <p><strong>Version:</strong> 2.0</p>
+          <p>
+            <strong>Description:</strong><br />
+            This extension detects when a song is played on supported music
+            sites, captures the high-quality stream URL, and allows you to
+            download the track with the correct filename.
+          </p>
+          <p><strong>Features:</strong></p>
+          <ul>
+            <li>Auto-detect currently playing song</li>
+            <li>Capture CDN links for each song</li>
+            <li>Download with progress indicator</li>
+            <li>Copy filename to clipboard</li>
+            <li>Multiple site support (easily extendable)</li>
+          </ul>
+          <p>
+            <strong>Disclaimer:</strong> Only use for content you have rights
+            to. Respect copyright.
+          </p>
+        </div>
+      </div>
+
+      <!-- Supported Sites view (hidden initially) -->
+      <div id="sitesView" class="hidden">
+        <button id="backToListFromSites" class="back-btn">Back to List</button>
+        <div class="info-content">
+          <h3>Supported Sites</h3>
+          <div id="sitesList">Loading...</div>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
