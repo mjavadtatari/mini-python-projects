@@ -171,7 +171,7 @@ function fallbackDownload(downloadUrl, desiredFileName) {
     chrome.downloads.download(
       {
         url: downloadUrl,
-        filename: `track_320.mp3`,
+        filename: `track_3203.mp3`,
         saveAs: true,
       },
       (downloadId) => {
@@ -233,6 +233,13 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   }
   if (message.type === "getCachedSongs") {
     sendResponse({ songs: cachedSongs });
+    return true;
+  }
+
+  if (message.type === "clearAllSongs") {
+    cachedSongs = [];
+    saveToStorage(); // this will also update badge and storage
+    sendResponse({ success: true });
     return true;
   }
 });

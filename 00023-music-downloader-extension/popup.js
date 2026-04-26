@@ -1,7 +1,9 @@
 const songListDiv = document.getElementById("songList");
 const refreshBtn = document.getElementById("refreshBtn");
+const clearBtn = document.getElementById("clearBtn");
 const aboutBtn = document.getElementById("aboutBtn");
 const sitesBtn = document.getElementById("sitesBtn");
+const clearMessageDiv = document.getElementById("clearMessage");
 const listView = document.getElementById("listView");
 const aboutView = document.getElementById("aboutView");
 const sitesView = document.getElementById("sitesView");
@@ -31,6 +33,26 @@ document
   .getElementById("backToListFromSites")
   .addEventListener("click", () => showView("list"));
 
+// --- Clear all songs ---
+clearBtn.addEventListener("click", async () => {
+  if (confirm("Are you sure you want to clear all saved songs?")) {
+    const response = await chrome.runtime.sendMessage({
+      type: "clearAllSongs",
+    });
+    if (response && response.success) {
+      // Show temporary message
+      clearMessageDiv.classList.remove("hidden");
+      setTimeout(() => {
+        clearMessageDiv.classList.add("hidden");
+      }, 2000);
+      // Reload the list
+      loadSongs();
+    } else {
+      alert("Failed to clear songs.");
+    }
+  }
+});
+
 // --- Progress updates from background ---
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (
@@ -51,7 +73,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   }
 });
 
-// --- Check if current tab is supported (using background) ---
+// --- Check if current tab is supported ---
 async function isSupportedSite() {
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
   if (!tab || !tab.url) return false;
@@ -80,25 +102,22 @@ async function loadSupportedSites() {
       if (typeof patternStr !== "string") {
         patternStr = patternStr.toString();
       }
-      // Clean the regex to show only the domain part (remove slashes and unescape)
-      let cleanPattern = patternStr;
-      // Remove leading and trailing slashes
-      cleanPattern = cleanPattern.replace(/^\//, "").replace(/\/$/, "");
-      // Replace escaped dots with actual dots
-      cleanPattern = cleanPattern.replace(/\\\./g, ".");
-      // Optionally remove any other regex special chars if needed (keep as is)
+      let cleanPattern = patternStr
+        .replace(/^\//, "")
+        .replace(/\/$/, "")
+        .replace(/\\\./g, ".");
       li.innerHTML = `<strong>${site.name}</strong><br><code>${cleanPattern}</code>`;
       ul.appendChild(li);
     });
     sitesListDiv.innerHTML = "";
     sitesListDiv.appendChild(ul);
   } catch (err) {
-    console.error("[Music Downloader] Error loading sites:", err);
+    console.error(err);
     sitesListDiv.innerHTML = '<div class="empty">Error loading sites</div>';
   }
 }
 
-// --- Load main song list (same as before, but with site prefix) ---
+// --- Load main song list ---
 async function loadSongs() {
   const supported = await isSupportedSite();
   if (!supported) {

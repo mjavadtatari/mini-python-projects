@@ -25,13 +25,18 @@
         flex: 1;
       }
       button {
-        background: #1a73e8;
         border: none;
         color: white;
         border-radius: 4px;
         padding: 6px 12px;
         cursor: pointer;
         font-size: 12px;
+      }
+      button.refresh {
+        background: #1a73e8;
+      }
+      button.clear {
+        background: #dc3545; /* red */
       }
       button.secondary {
         background: #5f6368;
@@ -114,21 +119,34 @@
       .hidden {
         display: none;
       }
+      .clear-message {
+        text-align: center;
+        padding: 8px;
+        background: #dc3545;
+        color: white;
+        border-radius: 4px;
+        margin-top: 8px;
+        font-size: 12px;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="header">
         <h3>Appu Music Downloader</h3>
-        <button id="refreshBtn">Refresh</button>
+        <button id="refreshBtn" class="refresh">Refresh</button>
+        <button id="clearBtn" class="clear">Clear</button>
         <button id="aboutBtn" class="secondary">About</button>
-        <button id="sitesBtn" class="secondary">Supported Sites</button>
+        <button id="sitesBtn" class="secondary">Sites</button>
       </div>
 
       <!-- Main song list view -->
       <div id="listView">
         <div id="songList" class="song-list">
           <div class="empty">Loading...</div>
+        </div>
+        <div id="clearMessage" class="clear-message hidden">
+          All songs cleared!
         </div>
         <div class="note">
           Songs are auto-captured when played on supported sites
@@ -138,26 +156,58 @@
       <!-- About view (hidden initially) -->
       <div id="aboutView" class="hidden">
         <button id="backToListFromAbout" class="back-btn">Back to List</button>
-        <div class="info-content">
-          <h3>About Appu Music Downloader</h3>
-          <p><strong>Version:</strong> 2.0</p>
-          <p>
-            <strong>Description:</strong><br />
-            This extension detects when a song is played on supported music
-            sites, captures the high-quality stream URL, and allows you to
-            download the track with the correct filename.
+        <div class="info-content" style="text-align: center">
+          <h2 style="color: #1a73e8; margin-bottom: 4px">
+            Appu Music Downloader
+          </h2>
+          <p style="color: #5f6368; font-size: 13px; margin-top: 0">
+            Created by
+            <a
+              href="https://appuccino.ir"
+              target="_blank"
+              style="color: #1a73e8; text-decoration: none; font-size: 12px"
+              ><strong>Appuccino Team</strong></a
+            >
+            with <strong>DeepSeek</strong><br />
           </p>
-          <p><strong>Features:</strong></p>
-          <ul>
-            <li>Auto-detect currently playing song</li>
-            <li>Capture CDN links for each song</li>
-            <li>Download with progress indicator</li>
-            <li>Copy filename to clipboard</li>
-            <li>Multiple site support (easily extendable)</li>
-          </ul>
-          <p>
-            <strong>Disclaimer:</strong> Only use for content you have rights
-            to. Respect copyright.
+          <div
+            style="
+              background: #f0f7ff;
+              border-radius: 12px;
+              padding: 12px;
+              margin: 12px 0;
+              text-align: left;
+            "
+          >
+            <p style="margin: 0 0 8px 0">
+              <strong>Version 2.0 - What's new:</strong>
+            </p>
+            <ul style="margin: 0; padding-left: 20px">
+              <li>Auto-detect currently playing song</li>
+              <li>Capture all available CDN links (no duplicates)</li>
+              <li>Download with live progress indicator</li>
+              <li>Copy song filename to clipboard</li>
+              <li>Supports multiple sites - easily extendable</li>
+              <li>Clean popup with clear & about sections</li>
+            </ul>
+          </div>
+          <div
+            style="
+              background: #fff5f5;
+              border-radius: 12px;
+              padding: 10px;
+              margin: 12px 0;
+              text-align: left;
+            "
+          >
+            <p style="margin: 0; color: #dc3545; font-size: 13px">
+              <strong>Disclaimer</strong><br />
+              Only download content you have rights to. Respect copyright and
+              the website's terms of service.
+            </p>
+          </div>
+          <p style="font-size: 11px; color: #aaa; margin-top: 16px">
+            Built for educational & personal use
           </p>
         </div>
       </div>
