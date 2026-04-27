@@ -1,0 +1,1309 @@
+{
+    "mirrors": [
+        {
+            "url": "https://mirrors.cicku.me/",
+            "country_name": "Global CDN",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://pub.linuxmint.io/",
+            "country_name": "Global",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://mirror.allthingslinux.org/",
+            "country_name": "Global",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://muug.ca/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://mirror.cpsc.ucalgary.ca/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://mirror.csclub.uwaterloo.ca/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://ca.mirrors.mk/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://lidsol.fi-b.unam.mx/",
+            "country_name": "Mexico",
+            "country_flag": "🇲🇽"
+        },
+        {
+            "url": "https://mirror.clarkson.edu/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirror.ette.biz/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirror.fcix.net/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirrors.gigenet.com/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirrors.seas.harvard.edu/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirror.hoobly.com/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirror.cs.jmu.edu/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirrors.kernel.org/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirrors.iu13.net/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://linuxfreedom.com/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirror.us.mirhosting.net/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirror.cs.odu.edu/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirrors.ocf.berkeley.edu/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://plug-mirror.rcac.purdue.edu/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirror.rackspace.com/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirrors.sonic.net/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirror.team-cymru.com/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirror.pit.teraswitch.com/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirrors.usinternet.com/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://mirrors.xmission.com/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://us.mirrors.mk/",
+            "country_name": "USA",
+            "country_flag": "🇺🇸"
+        },
+        {
+            "url": "https://ftp.mgts.by/",
+            "country_name": "Belarus",
+            "country_flag": "🇧🇾"
+        },
+        {
+            "url": "https://mirrors-linux-mint.behostings.com/",
+            "country_name": "Belgium",
+            "country_flag": "🇧🇪"
+        },
+        {
+            "url": "https://linuxmint.mirror-services.net/",
+            "country_name": "Global",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://mirror.unix-solutions.be/",
+            "country_name": "Belgium",
+            "country_flag": "🇧🇪"
+        },
+        {
+            "url": "http://mint.ipacct.com/",
+            "country_name": "Bulgaria",
+            "country_flag": "🇧🇬"
+        },
+        {
+            "url": "https://mirror.telepoint.bg/",
+            "country_name": "Bulgaria",
+            "country_flag": "🇧🇬"
+        },
+        {
+            "url": "https://mirrors.uni-ruse.bg/",
+            "country_name": "Bulgaria",
+            "country_flag": "🇧🇬"
+        },
+        {
+            "url": "https://linuxmint.nic.cz/",
+            "country_name": "Czech Republic",
+            "country_flag": "🇨🇿"
+        },
+        {
+            "url": "https://mirror.it4i.cz/",
+            "country_name": "Czech Republic",
+            "country_flag": "🇨🇿"
+        },
+        {
+            "url": "https://mirror.karneval.cz/",
+            "country_name": "Czech Republic",
+            "country_flag": "🇨🇿"
+        },
+        {
+            "url": "https://mirror-prg.webglobe.com/",
+            "country_name": "Czech Republic",
+            "country_flag": "🇨🇿"
+        },
+        {
+            "url": "https://mirrors.c0urier.net/",
+            "country_name": "Global",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://mirrors.dotsrc.org/",
+            "country_name": "Denmark",
+            "country_flag": "🇩🇰"
+        },
+        {
+            "url": "http://ftp.klid.dk/",
+            "country_name": "Denmark",
+            "country_flag": "🇩🇰"
+        },
+        {
+            "url": "https://mirror.5i.fi/",
+            "country_name": "Finland",
+            "country_flag": "🇫🇮"
+        },
+        {
+            "url": "https://cdnmirror.com/",
+            "country_name": "Global",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://mirror.ibcp.fr/",
+            "country_name": "France",
+            "country_flag": "🇫🇷"
+        },
+        {
+            "url": "https://mirror.cosmiclinux.com/",
+            "country_name": "France",
+            "country_flag": "🇫🇷"
+        },
+        {
+            "url": "https://ftp.crifo.org/",
+            "country_name": "France",
+            "country_flag": "🇫🇷"
+        },
+        {
+            "url": "https://mirror.johnnybegood.fr/",
+            "country_name": "France",
+            "country_flag": "🇫🇷"
+        },
+        {
+            "url": "https://mirrors.komogoto.com/",
+            "country_name": "France",
+            "country_flag": "🇫🇷"
+        },
+        {
+            "url": "https://mirrors.univ-reims.fr/",
+            "country_name": "France",
+            "country_flag": "🇫🇷"
+        },
+        {
+            "url": "https://de.repo.c48.uk/",
+            "country_name": "United Kingdom",
+            "country_flag": "🇬🇧"
+        },
+        {
+            "url": "https://mirror.diyarciftci.xyz/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.dogado.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://ftp.fau.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "http://mirror.funkfreundelandshut.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://ftp5.gwdg.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://ftp-stud.hs-esslingen.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.as20647.net/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.netcologne.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.netzwerge.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.pyratelan.org/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror-mint.seo-manager.info/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.wtnet.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://de.mirrors.mk/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://repo.greeklug.gr/",
+            "country_name": "Greece",
+            "country_flag": "🇬🇷"
+        },
+        {
+            "url": "https://ftp.cc.uoc.gr/",
+            "country_name": "Greece",
+            "country_flag": "🇬🇷"
+        },
+        {
+            "url": "https://mirror.webworld.ie/",
+            "country_name": "Ireland",
+            "country_flag": "🇮🇪"
+        },
+        {
+            "url": "https://linuxmint.mirror.garr.it/",
+            "country_name": "Italy",
+            "country_flag": "🇮🇹"
+        },
+        {
+            "url": "https://mint.koyanet.lv/",
+            "country_name": "Latvia",
+            "country_flag": "🇱🇻"
+        },
+        {
+            "url": "https://ftp.linux.edu.lv/",
+            "country_name": "Latvia",
+            "country_flag": "🇱🇻"
+        },
+        {
+            "url": "https://mirror.ihost.md/",
+            "country_name": "Moldova",
+            "country_flag": "🇲🇩"
+        },
+        {
+            "url": "https://mirror.nl.as215296.net/",
+            "country_name": "Netherlands",
+            "country_flag": "🇳🇱"
+        },
+        {
+            "url": "https://mirrors.evoluso.com/",
+            "country_name": "Netherlands",
+            "country_flag": "🇳🇱"
+        },
+        {
+            "url": "https://mirror.koddos.net/",
+            "country_name": "Netherlands",
+            "country_flag": "🇳🇱"
+        },
+        {
+            "url": "https://linuxmint.mirror.liteserver.nl/",
+            "country_name": "Netherlands",
+            "country_flag": "🇳🇱"
+        },
+        {
+            "url": "https://mirror.nl.mirhosting.net/",
+            "country_name": "Netherlands",
+            "country_flag": "🇳🇱"
+        },
+        {
+            "url": "https://ftp.nluug.nl/",
+            "country_name": "Netherlands",
+            "country_flag": "🇳🇱"
+        },
+        {
+            "url": "https://mintlinux.mirror.wearetriple.com/",
+            "country_name": "Netherlands",
+            "country_flag": "🇳🇱"
+        },
+        {
+            "url": "https://ftp.icm.edu.pl/",
+            "country_name": "Poland",
+            "country_flag": "🇵🇱"
+        },
+        {
+            "url": "https://ftp.psnc.pl/",
+            "country_name": "Poland",
+            "country_flag": "🇵🇱"
+        },
+        {
+            "url": "https://ftp.rnl.tecnico.ulisboa.pt/",
+            "country_name": "Portugal",
+            "country_flag": "🇵🇹"
+        },
+        {
+            "url": "https://mirrors.up.pt/",
+            "country_name": "Portugal",
+            "country_flag": "🇵🇹"
+        },
+        {
+            "url": "https://mirrors.hosterion.ro/",
+            "country_name": "Romania",
+            "country_flag": "🇷🇴"
+        },
+        {
+            "url": "https://mirrors.hostico.ro/",
+            "country_name": "Romania",
+            "country_flag": "🇷🇴"
+        },
+        {
+            "url": "http://mint.mirrors.orange.ro/",
+            "country_name": "Romania",
+            "country_flag": "🇷🇴"
+        },
+        {
+            "url": "https://mirror.hyperdedic.ru/",
+            "country_name": "Russia",
+            "country_flag": "🇷🇺"
+        },
+        {
+            "url": "https://mirror.yandex.ru/",
+            "country_name": "Russia",
+            "country_flag": "🇷🇺"
+        },
+        {
+            "url": "https://mirror1.sox.rs/",
+            "country_name": "Serbia",
+            "country_flag": "🇷🇸"
+        },
+        {
+            "url": "http://mirror.pmf.kg.ac.rs/",
+            "country_name": "Serbia",
+            "country_flag": "🇷🇸"
+        },
+        {
+            "url": "http://ftp.energotel.sk/",
+            "country_name": "Slovakia",
+            "country_flag": "🇸🇰"
+        },
+        {
+            "url": "https://linuxmint.mirrors.si/",
+            "country_name": "Slovenia",
+            "country_flag": "🇸🇮"
+        },
+        {
+            "url": "https://mirror.airenetworks.es/",
+            "country_name": "Spain",
+            "country_flag": "🇪🇸"
+        },
+        {
+            "url": "https://ftp.cixug.es/",
+            "country_name": "Spain",
+            "country_flag": "🇪🇸"
+        },
+        {
+            "url": "https://mirror.raiolanetworks.com/",
+            "country_name": "Spain",
+            "country_flag": "🇪🇸"
+        },
+        {
+            "url": "https://softlibre.unizar.es/",
+            "country_name": "Spain",
+            "country_flag": "🇪🇸"
+        },
+        {
+            "url": "https://mirror.accum.se/",
+            "country_name": "Sweden",
+            "country_flag": "🇸🇪"
+        },
+        {
+            "url": "https://mirror.bahnhof.net/",
+            "country_name": "Sweden",
+            "country_flag": "🇸🇪"
+        },
+        {
+            "url": "https://mirror.braindrainlan.nu/",
+            "country_name": "Sweden",
+            "country_flag": "🇸🇪"
+        },
+        {
+            "url": "https://ftpmirror1.infania.net/",
+            "country_name": "Sweden",
+            "country_flag": "🇸🇪"
+        },
+        {
+            "url": "https://mirror.retropc.se/",
+            "country_name": "Sweden",
+            "country_flag": "🇸🇪"
+        },
+        {
+            "url": "https://mirror.gofoss.xyz/",
+            "country_name": "Global",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://mirror.hb9hil.org/",
+            "country_name": "Switzerland",
+            "country_flag": "🇨🇭"
+        },
+        {
+            "url": "https://mirror.init7.net/",
+            "country_name": "Switzerland",
+            "country_flag": "🇨🇭"
+        },
+        {
+            "url": "https://mirror.metanet.ch/",
+            "country_name": "Switzerland",
+            "country_flag": "🇨🇭"
+        },
+        {
+            "url": "https://mirror.ekiphost.com/",
+            "country_name": "Turkey",
+            "country_flag": "🇹🇷"
+        },
+        {
+            "url": "https://ftp.linux.org.tr/",
+            "country_name": "Turkey",
+            "country_flag": "🇹🇷"
+        },
+        {
+            "url": "https://mirrors.pendc.com/",
+            "country_name": "Turkey",
+            "country_flag": "🇹🇷"
+        },
+        {
+            "url": "https://mirror.verinomi.com/",
+            "country_name": "Turkey",
+            "country_flag": "🇹🇷"
+        },
+        {
+            "url": "https://distrohub.kyiv.ua/",
+            "country_name": "Ukraine",
+            "country_flag": "🇺🇦"
+        },
+        {
+            "url": "https://mirror.hostiko.network/",
+            "country_name": "Ukraine",
+            "country_flag": "🇺🇦"
+        },
+        {
+            "url": "https://linuxmint.ip-connect.vn.ua/",
+            "country_name": "Ukraine",
+            "country_flag": "🇺🇦"
+        },
+        {
+            "url": "https://repo.c48.uk/",
+            "country_name": "United Kingdom",
+            "country_flag": "🇬🇧"
+        },
+        {
+            "url": "https://mirror.server.net/",
+            "country_name": "United Kingdom",
+            "country_flag": "🇬🇧"
+        },
+        {
+            "url": "https://mirror.cov.ukservers.com/",
+            "country_name": "United Kingdom",
+            "country_flag": "🇬🇧"
+        },
+        {
+            "url": "https://mirrors.ukfast.co.uk/",
+            "country_name": "United Kingdom",
+            "country_flag": "🇬🇧"
+        },
+        {
+            "url": "https://www.mirrorservice.org/",
+            "country_name": "United Kingdom",
+            "country_flag": "🇬🇧"
+        },
+        {
+            "url": "https://mirror.vinehost.net/",
+            "country_name": "United Kingdom",
+            "country_flag": "🇬🇧"
+        },
+        {
+            "url": "https://mirror.ourhost.az/",
+            "country_name": "Azerbaijan",
+            "country_flag": "🇦🇿"
+        },
+        {
+            "url": "https://mirror.limda.net/",
+            "country_name": "Bangladesh",
+            "country_flag": "🇧🇩"
+        },
+        {
+            "url": "https://mirror.xeonbd.com/",
+            "country_name": "Bangladesh",
+            "country_flag": "🇧🇩"
+        },
+        {
+            "url": "https://mirrors.bfsu.edu.cn/",
+            "country_name": "China",
+            "country_flag": "🇨🇳"
+        },
+        {
+            "url": "https://mirrors.nju.edu.cn/",
+            "country_name": "China",
+            "country_flag": "🇨🇳"
+        },
+        {
+            "url": "https://mirror.sjtu.edu.cn/",
+            "country_name": "China",
+            "country_flag": "🇨🇳"
+        },
+        {
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/",
+            "country_name": "China",
+            "country_flag": "🇨🇳"
+        },
+        {
+            "url": "https://mirrors.ustc.edu.cn/",
+            "country_name": "China",
+            "country_flag": "🇨🇳"
+        },
+        {
+            "url": "https://mirror-hk.koddos.net/",
+            "country_name": "Hong Kong",
+            "country_flag": "🇭🇰"
+        },
+        {
+            "url": "https://mirror.del2.albony.in/",
+            "country_name": "India",
+            "country_flag": "🇮🇳"
+        },
+        {
+            "url": "https://mirrors.nxtgen.com/",
+            "country_name": "India",
+            "country_flag": "🇮🇳"
+        },
+        {
+            "url": "https://mirrors.piconets.webwerks.in/",
+            "country_name": "India",
+            "country_flag": "🇮🇳"
+        },
+        {
+            "url": "https://ftp.udx.icscoe.jp/",
+            "country_name": "Japan",
+            "country_flag": "🇯🇵"
+        },
+        {
+            "url": "https://ftp.yz.yamagata-u.ac.jp/",
+            "country_name": "Japan",
+            "country_flag": "🇯🇵"
+        },
+        {
+            "url": "https://mirror.hoster.kz/",
+            "country_name": "Kazakhstan",
+            "country_flag": "🇰🇿"
+        },
+        {
+            "url": "https://mirror.ps.kz/",
+            "country_name": "Kazakhstan",
+            "country_flag": "🇰🇿"
+        },
+        {
+            "url": "https://mirror.maeen.sa/",
+            "country_name": "Saudi Arabia",
+            "country_flag": "🇸🇦"
+        },
+        {
+            "url": "https://mirror.freedif.org/",
+            "country_name": "Singapore",
+            "country_flag": "🇸🇬"
+        },
+        {
+            "url": "https://mirror.jingk.ai/",
+            "country_name": "Singapore",
+            "country_flag": "🇸🇬"
+        },
+        {
+            "url": "https://mirror.siwoo.org/",
+            "country_name": "South Korea",
+            "country_flag": "🇰🇷"
+        },
+        {
+            "url": "https://ftp.kaist.ac.kr/",
+            "country_name": "South Korea",
+            "country_flag": "🇰🇷"
+        },
+        {
+            "url": "https://mirror.wonchan.net/",
+            "country_name": "South Korea",
+            "country_flag": "🇰🇷"
+        },
+        {
+            "url": "https://mirror.twds.com.tw/",
+            "country_name": "Taiwan",
+            "country_flag": "🇹🇼"
+        },
+        {
+            "url": "https://mirror.kku.ac.th/",
+            "country_name": "Thailand",
+            "country_flag": "🇹🇭"
+        },
+        {
+            "url": "https://mirror.clearsky.vn/",
+            "country_name": "Vietnam",
+            "country_flag": "🇻🇳"
+        },
+        {
+            "url": "https://mirror.meowsmp.net/",
+            "country_name": "Vietnam",
+            "country_flag": "🇻🇳"
+        },
+        {
+            "url": "https://mirror.aarnet.edu.au/",
+            "country_name": "Australia",
+            "country_flag": "🇦🇺"
+        },
+        {
+            "url": "http://ucmirror.canterbury.ac.nz/",
+            "country_name": "New Zealand",
+            "country_flag": "🇳🇿"
+        },
+        {
+            "url": "https://mint.zero.com.ar/",
+            "country_name": "Argentina",
+            "country_flag": "🇦🇷"
+        },
+        {
+            "url": "https://mint.c3sl.ufpr.br/",
+            "country_name": "Brazil",
+            "country_flag": "🇧🇷"
+        },
+        {
+            "url": "https://mint.portalidea.com.br/",
+            "country_name": "Brazil",
+            "country_flag": "🇧🇷"
+        },
+        {
+            "url": "https://isosmint.ic.ufmt.br/",
+            "country_name": "Brazil",
+            "country_flag": "🇧🇷"
+        },
+        {
+            "url": "https://mirror.ufro.cl/",
+            "country_name": "Chile",
+            "country_flag": "🇨🇱"
+        },
+        {
+            "url": "https://mirror.cedia.org.ec/",
+            "country_name": "Ecuador",
+            "country_flag": "🇪🇨"
+        },
+        {
+            "url": "https://mirror.undernet.uy/",
+            "country_name": "Uruguay",
+            "country_flag": "🇺🇾"
+        },
+        {
+            "url": "https://linuxmint.mirror.liquidtelecom.com/",
+            "country_name": "Kenya",
+            "country_flag": "🇰🇪"
+        },
+        {
+            "url": "https://linuxmint-mirror.cloud.mu/",
+            "country_name": "Mauritius",
+            "country_flag": "🇲🇺"
+        },
+        {
+            "url": "https://mirror.as3741.net/",
+            "country_name": "South Africa",
+            "country_flag": "🇿🇦"
+        },
+        {
+            "url": "https://mirror.ufs.ac.za/",
+            "country_name": "South Africa",
+            "country_flag": "🇿🇦"
+        },
+        {
+            "url": "https://mirror.sitsa.com.ar/",
+            "country_name": "Argentina",
+            "country_flag": "🇦🇷"
+        },
+        {
+            "url": "https://ubuntu.zero.com.ar/",
+            "country_name": "Argentina",
+            "country_flag": "🇦🇷"
+        },
+        {
+            "url": "https://releases.ubuntu.unc.edu.ar/",
+            "country_name": "Argentina",
+            "country_flag": "🇦🇷"
+        },
+        {
+            "url": "https://gsl-syd.mm.fcix.net/",
+            "country_name": "Australia",
+            "country_flag": "🇦🇺"
+        },
+        {
+            "url": "https://mirror.internet.asn.au/",
+            "country_name": "Australia",
+            "country_flag": "🇦🇺"
+        },
+        {
+            "url": "https://lchs.mm.fcix.net/",
+            "country_name": "Australia",
+            "country_flag": "🇦🇺"
+        },
+        {
+            "url": "https://mirror.easyname.at/",
+            "country_name": "Austria",
+            "country_flag": "🇦🇹"
+        },
+        {
+            "url": "https://ubuntu.anexia.at/",
+            "country_name": "Austria",
+            "country_flag": "🇦🇹"
+        },
+        {
+            "url": "https://mirror.kumi.systems/",
+            "country_name": "Austria",
+            "country_flag": "🇦🇹"
+        },
+        {
+            "url": "https://at.ubuntu.niranjan.co/",
+            "country_name": "Austria",
+            "country_flag": "🇦🇹"
+        },
+        {
+            "url": "https://mirror.yer.az/",
+            "country_name": "Azerbaijan",
+            "country_flag": "🇦🇿"
+        },
+        {
+            "url": "https://mirror.ourhost.az/",
+            "country_name": "Azerbaijan",
+            "country_flag": "🇦🇿"
+        },
+        {
+            "url": "https://mirror.xeonbd.com/",
+            "country_name": "Bangladesh",
+            "country_flag": "🇧🇩"
+        },
+        {
+            "url": "https://ftp.belnet.be/",
+            "country_name": "Belgium",
+            "country_flag": "🇧🇪"
+        },
+        {
+            "url": "https://mirror.unix-solutions.be/",
+            "country_name": "Belgium",
+            "country_flag": "🇧🇪"
+        },
+        {
+            "url": "https://ubuntu.mirror-services.net/",
+            "country_name": "Global",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://mirror.pop-sc.rnp.br/",
+            "country_name": "Brazil",
+            "country_flag": "🇧🇷"
+        },
+        {
+            "url": "https://mirror.uepg.br/",
+            "country_name": "Brazil",
+            "country_flag": "🇧🇷"
+        },
+        {
+            "url": "https://ubuntu.univassouras.edu.br/",
+            "country_name": "Brazil",
+            "country_flag": "🇧🇷"
+        },
+        {
+            "url": "https://mirror.telepoint.bg/",
+            "country_name": "Bulgaria",
+            "country_flag": "🇧🇬"
+        },
+        {
+            "url": "https://mirrors.neterra.net/",
+            "country_name": "Bulgaria",
+            "country_flag": "🇧🇬"
+        },
+        {
+            "url": "https://mirrors.netix.net/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://ubuntu.ipacct.com/",
+            "country_name": "Bulgaria",
+            "country_flag": "🇧🇬"
+        },
+        {
+            "url": "https://mirrors.storpool.com/",
+            "country_name": "Bulgaria",
+            "country_flag": "🇧🇬"
+        },
+        {
+            "url": "https://mirror.xenyth.net/",
+            "country_name": "Global",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://mirror.it.ubc.ca/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://muug.ca/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://yxeix.mm.fcix.net/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://gpl.savoirfairelinux.net/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://lesnet.mm.fcix.net/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://mirror.cpsc.ucalgary.ca/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://mirror.csclub.uwaterloo.ca/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://mirror.digitaloceans.dev/",
+            "country_name": "Global",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://mirror.esecuredata.com/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://mirror.quantum5.ca/",
+            "country_name": "Canada",
+            "country_flag": "🇨🇦"
+        },
+        {
+            "url": "https://mirror.hnd.cl/",
+            "country_name": "Chile",
+            "country_flag": "🇨🇱"
+        },
+        {
+            "url": "https://elmirror.cl/",
+            "country_name": "Chile",
+            "country_flag": "🇨🇱"
+        },
+        {
+            "url": "https://mirrors.qlu.edu.cn/",
+            "country_name": "China",
+            "country_flag": "🇨🇳"
+        },
+        {
+            "url": "https://ftp.sjtu.edu.cn/",
+            "country_name": "China",
+            "country_flag": "🇨🇳"
+        },
+        {
+            "url": "https://mirrors.hit.edu.cn/",
+            "country_name": "China",
+            "country_flag": "🇨🇳"
+        },
+        {
+            "url": "https://mirrors.xjtu.edu.cn/",
+            "country_name": "China",
+            "country_flag": "🇨🇳"
+        },
+        {
+            "url": "https://mirrors.atlas.net.co/",
+            "country_name": "Colombia",
+            "country_flag": "🇨🇴"
+        },
+        {
+            "url": "https://mirrors.ucr.ac.cr/",
+            "country_name": "Costa Rica",
+            "country_flag": "🇨🇷"
+        },
+        {
+            "url": "https://cz.releases.ubuntu.com/",
+            "country_name": "Czech Republic",
+            "country_flag": "🇨🇿"
+        },
+        {
+            "url": "https://mirror.dkm.cz/",
+            "country_name": "Czech Republic",
+            "country_flag": "🇨🇿"
+        },
+        {
+            "url": "https://mirrors.dotsrc.org/",
+            "country_name": "Denmark",
+            "country_flag": "🇩🇰"
+        },
+        {
+            "url": "https://mirrors.fibianet.dk/",
+            "country_name": "Denmark",
+            "country_flag": "🇩🇰"
+        },
+        {
+            "url": "https://mirror.netsite.dk/",
+            "country_name": "Denmark",
+            "country_flag": "🇩🇰"
+        },
+        {
+            "url": "https://mirror.one.com/",
+            "country_name": "Denmark",
+            "country_flag": "🇩🇰"
+        },
+        {
+            "url": "https://mirrors.c0urier.net/",
+            "country_name": "Global",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://stix.mm.fcix.net/",
+            "country_name": "Denmark",
+            "country_flag": "🇩🇰"
+        },
+        {
+            "url": "https://mirror.linux.ec/",
+            "country_name": "Ecuador",
+            "country_flag": "🇪🇨"
+        },
+        {
+            "url": "https://mirrors.xtom.ee/",
+            "country_name": "Estonia",
+            "country_flag": "🇪🇪"
+        },
+        {
+            "url": "https://www.nic.funet.fi/",
+            "country_name": "Finland",
+            "country_flag": "🇫🇮"
+        },
+        {
+            "url": "https://mirror.5i.fi/",
+            "country_name": "Finland",
+            "country_flag": "🇫🇮"
+        },
+        {
+            "url": "https://mirror.fi.ossplanet.net/",
+            "country_name": "Finland",
+            "country_flag": "🇫🇮"
+        },
+        {
+            "url": "https://ubuntu.mirrors.ovh.net/",
+            "country_name": "France",
+            "country_flag": "🇫🇷"
+        },
+        {
+            "url": "https://mirror.bakertelekom.fr/",
+            "country_name": "France",
+            "country_flag": "🇫🇷"
+        },
+        {
+            "url": "https://mirrors.ircam.fr/",
+            "country_name": "France",
+            "country_flag": "🇫🇷"
+        },
+        {
+            "url": "https://ubuntu.univ-nantes.fr/",
+            "country_name": "France",
+            "country_flag": "🇫🇷"
+        },
+        {
+            "url": "https://www-ftp.lip6.fr/",
+            "country_name": "France",
+            "country_flag": "🇫🇷"
+        },
+        {
+            "url": "https://ubuntu.grena.ge/",
+            "country_name": "Grenada",
+            "country_flag": "🇬🇩"
+        },
+        {
+            "url": "https://mirror.ordunet.ge/",
+            "country_name": "Georgia",
+            "country_flag": "🇬🇪"
+        },
+        {
+            "url": "https://ftp.halifax.rwth-aachen.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.dogado.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.de.leaseweb.net/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.level66.network/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.wtnet.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirrors.xtom.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://ftp.fau.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://drmirror.physi.uni-heidelberg.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.netzwerge.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.faigner.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://ftp5.gwdg.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://level66.mm.fcix.net/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.23m.com/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.imt-systems.com/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.kkg.berlin/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.scaleuptech.com/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror2.tuxinator.org/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://releases.ubuntu.repulsive.eu/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://mirror.funkfreundelandshut.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://ftp.tu-chemnitz.de/",
+            "country_name": "Germany",
+            "country_flag": "🇩🇪"
+        },
+        {
+            "url": "https://fosszone.csd.auth.gr/",
+            "country_name": "Greece",
+            "country_flag": "🇬🇷"
+        },
+        {
+            "url": "https://ftp.cc.uoc.gr/",
+            "country_name": "Greece",
+            "country_flag": "🇬🇷"
+        },
+        {
+            "url": "https://mirror.01link.hk/",
+            "country_name": "Hong Kong",
+            "country_flag": "🇭🇰"
+        },
+        {
+            "url": "https://mirror.xtom.com.hk/",
+            "country_name": "Hong Kong",
+            "country_flag": "🇭🇰"
+        },
+        {
+            "url": "https://mirror-hk.koddos.net/",
+            "country_name": "Hong Kong",
+            "country_flag": "🇭🇰"
+        },
+        {
+            "url": "https://mirror.niif.hu/",
+            "country_name": "Hungary",
+            "country_flag": "🇭🇺"
+        },
+        {
+            "url": "https://ubuntu.hysing.is/",
+            "country_name": "Iceland",
+            "country_flag": "🇮🇸"
+        },
+        {
+            "url": "https://mirrors.opensource.is/",
+            "country_name": "Iceland",
+            "country_flag": "🇮🇸"
+        },
+        {
+            "url": "https://mirror.ajl.albony.in/",
+            "country_name": "India",
+            "country_flag": "🇮🇳"
+        },
+        {
+            "url": "https://mirror.bharatdatacenter.com/",
+            "country_name": "India",
+            "country_flag": "🇮🇳"
+        },
+        {
+            "url": "https://linux.domainesia.com/",
+            "country_name": "Indonesia",
+            "country_flag": "🇮🇩"
+        },
+        {
+            "url": "https://mirror.nevacloud.com/",
+            "country_name": "Indonesia",
+            "country_flag": "🇮🇩"
+        },
+        {
+            "url": "https://mirror.jagoanhosting.id/",
+            "country_name": "Indonesia",
+            "country_flag": "🇮🇩"
+        },
+        {
+            "url": "https://mirror.citrahost.com/",
+            "country_name": "Indonesia",
+            "country_flag": "🇮🇩"
+        },
+        {
+            "url": "https://mirror.unair.ac.id/",
+            "country_name": "Indonesia",
+            "country_flag": "🇮🇩"
+        },
+        {
+            "url": "https://repo.usk.ac.id/",
+            "country_name": "Indonesia",
+            "country_flag": "🇮🇩"
+        },
+        {
+            "url": "https://mirror.pablosec.com/",
+            "country_name": "Global",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://ubuntu.mirror.garr.it/",
+            "country_name": "Italy",
+            "country_flag": "🇮🇹"
+        },
+        {
+            "url": "https://it1.mirror.vhosting-it.com/",
+            "country_name": "Italy",
+            "country_flag": "🇮🇹"
+        },
+        {
+            "url": "https://it2.mirror.vhosting-it.com/",
+            "country_name": "Italy",
+            "country_flag": "🇮🇹"
+        },
+        {
+            "url": "https://ftp.udx.icscoe.jp/",
+            "country_name": "Japan",
+            "country_flag": "🇯🇵"
+        }
+    ]
+}
