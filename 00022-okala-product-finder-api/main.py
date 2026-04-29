@@ -9,7 +9,7 @@ from services.store_ingestion import ingest_stores_for_location
 from repositories.store_repository import get_all_stores
 from services.product_ingestion import ingest_products_for_stores
 
-AUTH_TOKEN = "Bearer Token"
+AUTH_TOKEN = ""
 
 COOLDOWN_SECONDS = 2.5
 

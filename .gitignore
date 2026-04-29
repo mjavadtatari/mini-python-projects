@@ -8,6 +8,7 @@
 */build
 */dist
 */_pycache
+*/__pycache__
 *.spec
 *.pem
 */*.pem

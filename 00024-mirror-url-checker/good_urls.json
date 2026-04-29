@@ -1,0 +1,59 @@
+{
+    "urls": [
+        {
+            "url": "https://chatgpt.com/",
+            "country_name": "AIs",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://claude.ai/",
+            "country_name": "AIs",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://grok.com/",
+            "country_name": "AIs",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://gemini.google.com/",
+            "country_name": "AIs",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://store.steampowered.com/",
+            "country_name": "Games",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://www.xbox.com/",
+            "country_name": "Games",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://support.xbox.com/en-US/xbox-live-status/",
+            "country_name": "Games",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://www.playstation.com/",
+            "country_name": "Games",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://store.playstation.com/",
+            "country_name": "Games",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://sourceforge.net/",
+            "country_name": "Software",
+            "country_flag": "🌍"
+        },
+        {
+            "url": "https://www.youtube.com/",
+            "country_name": "Entertainment",
+            "country_flag": "🌍"
+        }
+    ]
+}

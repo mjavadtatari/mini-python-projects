@@ -1,5 +1,5 @@
 {
-    "mirrors": [
+    "urls": [
         {
             "url": "https://mirrors.cicku.me/",
             "country_name": "Global CDN",
