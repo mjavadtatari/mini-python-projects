@@ -12,3 +12,5 @@
 *.spec
 *.pem
 */*.pem
+*/settings.json
+*/*.db
